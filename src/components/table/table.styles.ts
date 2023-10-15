@@ -106,7 +106,7 @@ export const PaginationButton = styled(Button)<{ active: boolean }>`
   font-style: normal !important;
   font-weight: 400 !important;
   line-height: normal !important;
-  background-color: ${(props) => (props.active ? '#4f46f8 !important' : 'none')};
+  background-color: ${(props) => (props.active ? '#4f46f8!important' : 'none')};
   padding: 3px 0 !important;
   border-radius: 4px !important;
   border: none !important;
